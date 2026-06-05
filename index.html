@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adam T. Eladwy | Data Analyst Portfolio</title>
+    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -30,11 +33,13 @@
 </head>
 <body class="selection:bg-blue-600 selection:text-white antialiased">
 
+    <!-- Navigation Bar -->
     <nav class="sticky top-0 z-40 bg-[#090d16]/80 backdrop-blur-md border-b border-gray-800/60">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-16">
                 <div class="flex items-center gap-2">
-                    <span class="text-xl font-extrabold tracking-tight bg-gradient-to-r from-blue-400 via-indigo-400 to-purple-500 bg-clip-text text-transparent">AdamEladwy.dev</span>
+                    <!-- تم إزالة .dev وبقاء الاسم احترافياً ونظيفاً -->
+                    <span class="text-xl font-extrabold tracking-tight bg-gradient-to-r from-blue-400 via-indigo-400 to-purple-500 bg-clip-text text-transparent">Adam T. Eladwy</span>
                 </div>
                 <div class="hidden md:flex items-center space-x-8 text-sm font-medium text-gray-300">
                     <a href="#about" class="hover:text-blue-400 transition-colors">About</a>
@@ -49,12 +54,14 @@
         </div>
     </nav>
 
+    <!-- Hero Section -->
     <section id="about" class="py-20 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
             <div class="space-y-6 md:col-span-7">
+                <!-- تم تحديث الشارة لتشمل العمل عن بعد أيضاً -->
                 <div class="inline-flex items-center gap-2 bg-blue-500/10 border border-blue-500/20 px-3 py-1 rounded-full">
                     <span class="w-2 h-2 bg-blue-400 rounded-full animate-pulse"></span>
-                    <span class="text-blue-400 font-semibold text-xs tracking-wide uppercase">Available for Freelance & Full-time</span>
+                    <span class="text-blue-400 font-semibold text-xs tracking-wide uppercase">Available for Freelance, Full-time & Remote Work</span>
                 </div>
                 <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-none">
                     Hi, I'm Adam <br>
@@ -63,13 +70,19 @@
                 <p class="text-gray-400 text-lg leading-relaxed max-w-xl">
                     I specialize in transforming complex raw business data into actionable visual insights and automated operational solutions. Expert in building modern dashboards and local retail software.
                 </p>
-                <div class="flex gap-4 pt-2">
+                <!-- منطقة الأزرار: تم إضافة زر تحميل الـ CV بالتوازي مع زر تصفح المشاريع -->
+                <div class="flex flex-wrap gap-4 pt-2">
                     <a href="#projects" class="bg-blue-600 hover:bg-blue-500 text-white px-6 py-3 rounded-xl font-semibold transition-all flex items-center gap-2 shadow-lg shadow-blue-900/20">
                         <span>Explore Projects</span>
                         <i class="fas fa-arrow-right text-xs"></i>
                     </a>
+                    <a href="Adam_Eladwy_CV.pdf" download="Adam_Eladwy_CV.pdf" class="bg-[#101420] hover:bg-[#161c2d] text-white border border-gray-800/80 hover:border-gray-700 px-6 py-3 rounded-xl font-semibold transition-all flex items-center gap-2 shadow-lg shadow-black/20">
+                        <i class="fas fa-file-download text-sm text-blue-400"></i>
+                        <span>Download CV</span>
+                    </a>
                 </div>
             </div>
+            <!-- Profile Image Area -->
             <div class="flex justify-center md:col-span-5">
                 <div class="relative group">
                     <div class="absolute -inset-1 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-2xl blur opacity-25 group-hover:opacity-40 transition duration-700"></div>
@@ -82,6 +95,7 @@
         </div>
     </section>
 
+    <!-- Technical Stack Section -->
     <section id="skills" class="py-16 bg-[#070a11] border-y border-gray-900/60">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-2xl mx-auto mb-12">
@@ -112,6 +126,7 @@
         </div>
     </section>
 
+    <!-- Projects Section -->
     <section id="projects" class="py-20 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center max-w-2xl mx-auto mb-16">
             <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">Featured Analytics Projects</h2>
@@ -120,6 +135,7 @@
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             
+            <!-- Project 1 Card -->
             <div class="bg-[#101420]/60 border border-gray-800/80 rounded-2xl overflow-hidden glow-effect transition-all duration-300 flex flex-col justify-between">
                 <div>
                     <div class="h-48 overflow-hidden bg-gray-900 border-b border-gray-800/50">
@@ -138,6 +154,7 @@
                 </div>
             </div>
 
+            <!-- Project 2 Card (تسالي الحلو) -->
             <div class="bg-[#101420]/60 border border-gray-800/80 rounded-2xl overflow-hidden glow-effect transition-all duration-300 flex flex-col justify-between">
                 <div>
                     <div class="h-48 overflow-hidden bg-gray-900 border-b border-gray-800/50 relative">
@@ -156,6 +173,7 @@
                 </div>
             </div>
 
+            <!-- Project 3 Card -->
             <div class="bg-[#101420]/60 border border-gray-800/80 rounded-2xl overflow-hidden glow-effect transition-all duration-300 flex flex-col justify-between">
                 <div>
                     <div class="h-48 overflow-hidden bg-gray-900 border-b border-gray-800/50">
@@ -177,6 +195,7 @@
         </div>
     </section>
 
+    <!-- Project 1 Modal -->
     <div id="modal-p1" class="modal opacity-0 pointer-events-none fixed w-full h-full top-0 left-0 flex items-center justify-center z-50">
         <div class="modal-overlay absolute w-full h-full bg-[#090d16]/90 backdrop-blur-sm"></div>
         <div class="modal-container bg-[#101420] border border-gray-800 w-11/12 md:max-w-2xl mx-auto rounded-2xl shadow-2xl z-50 overflow-y-auto max-h-[85vh]">
@@ -195,6 +214,7 @@
         </div>
     </div>
 
+    <!-- Project 2 Modal -->
     <div id="modal-p2" class="modal opacity-0 pointer-events-none fixed w-full h-full top-0 left-0 flex items-center justify-center z-50">
         <div class="modal-overlay absolute w-full h-full bg-[#090d16]/90 backdrop-blur-sm"></div>
         <div class="modal-container bg-[#101420] border border-gray-800 w-11/12 md:max-w-2xl mx-auto rounded-2xl shadow-2xl z-50 overflow-y-auto max-h-[85vh]">
@@ -212,6 +232,7 @@
         </div>
     </div>
 
+    <!-- Project 3 Modal -->
     <div id="modal-p3" class="modal opacity-0 pointer-events-none fixed w-full h-full top-0 left-0 flex items-center justify-center z-50">
         <div class="modal-overlay absolute w-full h-full bg-[#090d16]/90 backdrop-blur-sm"></div>
         <div class="modal-container bg-[#101420] border border-gray-800 w-11/12 md:max-w-2xl mx-auto rounded-2xl shadow-2xl z-50 overflow-y-auto max-h-[85vh]">
@@ -229,10 +250,12 @@
         </div>
     </div>
 
+    <!-- Contact Section -->
     <section id="contact" class="py-20 bg-[#070a11] border-t border-gray-900/60">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 class="text-3xl font-bold text-white">Let's work together</h2>
             <div class="mt-10 flex flex-wrap justify-center gap-4">
+                <!-- الـ Email -->
                 <a href="mailto:adamtarek1809@gmail.com" class="flex items-center gap-4 bg-[#101420] border border-gray-800/80 px-5 py-3 rounded-xl min-w-[240px] hover:border-gray-700 transition-colors">
                     <span class="text-blue-500 text-xl"><i class="fas fa-envelope"></i></span>
                     <div class="text-left">
@@ -240,6 +263,7 @@
                         <div class="text-xs text-white">adamtarek1809@gmail.com</div>
                     </div>
                 </a>
+                <!-- حساب الـ LinkedIn -->
                 <a href="https://www.linkedin.com/in/adam-eladwy-6993b0211/" target="_blank" class="flex items-center gap-4 bg-[#101420] border border-gray-800/80 px-5 py-3 rounded-xl min-w-[240px] hover:border-blue-500/50 transition-all duration-300">
                     <span class="text-blue-400 text-xl"><i class="fab fa-linkedin"></i></span>
                     <div class="text-left">
@@ -247,6 +271,7 @@
                         <div class="text-xs text-white">Connect with me</div>
                     </div>
                 </a>
+                <!-- زر الواتساب -->
                 <a href="https://wa.me/201016385770" target="_blank" class="flex items-center gap-4 bg-[#101420] border border-gray-800/80 px-5 py-3 rounded-xl min-w-[240px] hover:border-green-500/50 transition-all duration-300">
                     <span class="text-green-500 text-xl"><i class="fab fa-whatsapp"></i></span>
                     <div class="text-left">
@@ -262,6 +287,7 @@
         <p>&copy; 2026 Adam T. Eladwy. All rights reserved.</p>
     </footer>
 
+    <!-- Modal Toggle Script -->
     <script>
         function toggleModal(modalId) {
             const body = document.querySelector('body');
